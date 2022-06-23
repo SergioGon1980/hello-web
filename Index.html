@@ -8,15 +8,61 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
-<body>
+ <!--   Poner un fondo a la pagina <background> - Es un atributo de <body>-->
+<body background="Fondo.jpg">
     <div align="center">
-    <!--Poner en negrita <b>
-        Tipo letra Italica <i>
-        Subrallar <u>
-        Cambiar color de la letra <font>
-        Color Rojo "FF0000"-->
-    <p><b><i><u> <font color="#FF0000"> HELLO <br> WORLD!!! </font></u></i></b></p>
-    <p> ¡¡¡HOLA MUNDO!!! </p>
-    </div>
+        <!--Poner en negrita <b>
+            Tipo letra Italica <i>
+            Subrallar <u>
+            Cambiar color de la letra <font>
+            Color Rojo "FF0000"-->
+        <p><b><i><u> <font color="#FF0000"> HELLO <br> WORLD!!! </font></u></i></b></p>
+        <p> ¡¡¡HOLA MUNDO!!! </p>
+        <!--Crear una lista <li>
+            Cambiar la forma dd la marca de la lista:
+            Afecta toda la lista y genetra el atributo Type <ul>
+            -->
+        <ul type="square">
+            <li> Hola 1&amp;</li>
+            <li> Hola 2&lt;</li>
+            <li> Hola 3&gt;</li>
+            <li> Hola 4&quot;</li>
+            <li> Hola 5&aacute;</li>
+            <li> Hola 6&agrave;</li>
+            <li> Hola 7&auml;</li>
+            <li> Hola 9&acirc;</li>
+            <li type="circle"> Hola 10 &aring;</li>
+        </ul>
+
+        <!--Crear una lista ordenada <ol>
+            Por defecto ordena por numero -->
+        <ol><li> Hola 1</li>
+            <li> Hola 2</li>
+            <li> Hola 3</li>
+            <li> Hola 4</li>
+            <li> Hola 5</li>
+            <li> Hola 6</li>
+            <li> Hola 7</li>
+            <li> Hola 9</li>
+        </ol>
+        <!--Forzamos a ordenar por numero -->
+        <ol type="1">
+            <li> Hola 1</li>
+            <li> Hola 2</li>
+            <li> Hola 3</li>
+        </ol>
+        <!--Forzamos a ordenar por letra -->
+        <ol type="A">
+            <li> Hola 1</li>
+            <li> Hola 2</li>
+            <li> Hola 3</li>
+        </ol>
+        <!--Forzamos a ordenar por numeros romanos empezando por el 10 -->
+        <ol type="I" start="10">
+            <li> Hola 1</li>
+            <li> Hola 2</li>
+            <li> Hola 3</li>
+        </ol>        
+        </div>
 </body>
 </html>
